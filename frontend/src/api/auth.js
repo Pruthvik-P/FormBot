@@ -2,6 +2,7 @@ import axios from "axios";
 
 const BACKEND_ORIGIN_URL = `${import.meta.env.VITE_API_BASE_URL}/api/v1`;
 
+console.log(BACKEND_ORIGIN_URL);
 const registerUser = async (userName, email, password) => {
   try {
     const response = await axios.post(`${BACKEND_ORIGIN_URL}/user/register`, {
