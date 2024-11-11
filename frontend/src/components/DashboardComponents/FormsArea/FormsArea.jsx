@@ -179,7 +179,7 @@ const FormsArea = () => {
             <div className={styles.forms}>
               <div className={styles.createForm} onClick={handleCreateForm}>
                 <img src={PlusIcon} alt="plus icon" />
-                <p>Create a typbot</p>
+                <p>Create a New Typebot</p>
               </div>
 
               {isLoading ? (
